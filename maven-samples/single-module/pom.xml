@@ -6,16 +6,6 @@
   <groupId>com.example.maven-samples</groupId>
   <artifactId>single-module-project</artifactId>
   <packaging>jar</packaging>
-          <configuration>
-          <archive>
-             <manifest>
-
-                  <!-- give full qualified name of your main class-->
-                  <mainClass>com.example.Greeter</mainClass>
-
-            </manifest>
-            </archive>
-            </configuration>
   <version>1.0-SNAPSHOT</version>
   <name>A Single Maven Module</name>
   <description>Sample single module Maven project with a working, deployable site.</description>
