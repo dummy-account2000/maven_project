@@ -112,6 +112,16 @@
         <groupId>org.mortbay.jetty</groupId>
         <artifactId>jetty-maven-plugin</artifactId>
         <version>8.0.0.M1</version>
+        <configuration>
+          <archive>
+             <manifest>
+
+                  <!-- give full qualified name of your main class-->
+                  <mainClass>com.example.Greeter</mainClass>
+
+            </manifest>
+            </archive>
+            </configuration>
       </plugin>
     </plugins>
   </build>
